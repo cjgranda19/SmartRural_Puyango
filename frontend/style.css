@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  background-color: #114b5f;
+  color: white;
+  padding: 1rem;
+  margin: 0;
+}
+
+#control-panel {
+  max-width: 1100px;
+  margin: 12px auto 0;
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: left;
+}
+#control-panel .row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+#control-panel input[type="text"] {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+#control-panel select {
+  min-width: 260px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+#control-panel button {
+  padding: 8px 14px;
+  background-color: #028090;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#control-panel button.secondary {
+  background-color: #888;
+}
+
+.summary {
+  margin-top: 6px;
+  padding: 10px;
+  background: #eef7ff;
+  border: 1px solid #cfe6ff;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+#contenedor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  text-align: left;
+}
+
+.card:hover { transform: scale(1.03); }
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content { padding: 1rem; }
+.card-content h3 { margin: 0 0 0.5rem; }
+.card-content p { margin: 0.2rem 0; font-size: 14px; }
+
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+.card-actions button {
+  padding: 0.5rem 1rem;
+  background-color: #028090;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card-actions button:hover { background-color: #026c75; }
+
+#map {
+  width: 100%;
+  height: 520px;
+  margin: 20px auto;
+  border: 2px solid #ccc;
+  max-width: 95%;
+  border-radius: 10px;
+}
+#map img { border-radius: 10px; }

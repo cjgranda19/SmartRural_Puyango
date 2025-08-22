@@ -1,0 +1,46 @@
+# ======================
+# Node.js
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.*
+
+# ======================
+# Flutter / Android
+# ======================
+*.apk
+*.aar
+*.aab
+*.iml
+.gradle/
+gradle-app/
+gradle-wrapper.jar
+/local.properties
+/.idea
+.DS_Store
+**/build/
+**/.gradle/
+**/.gradle-user-home/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/pubspec.lock
+
+# ======================
+# VSCode
+# ======================
+.vscode/
+.history/
+
+# ======================
+# Logs & Misc
+# ======================
+*.log
+*.tmp
+*.swp
+*.lock

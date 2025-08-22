@@ -1,0 +1,19 @@
+name: smart_rural_app
+description: Una app móvil para turismo rural
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.8.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  flutter_dotenv: ^5.0.2
+  intl: ^0.18.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
